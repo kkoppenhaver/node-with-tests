@@ -2,7 +2,7 @@ on:
   release:
     types: [deleted]
 
-name: Deploy
+name: Rollback
 jobs:
   deploy_release:
     runs-on: ubuntu-latest
